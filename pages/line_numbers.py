@@ -6,9 +6,8 @@ st.code(
     """
 import streamlit as st
 
-obj = st.radio("Select an object", ["A", "B", "C"])
+st.code("Insert your python code here!", language="python", line_number = True)
 
-st.write(obj)
 """,
     language="python",
     line_numbers=line_numbers,
